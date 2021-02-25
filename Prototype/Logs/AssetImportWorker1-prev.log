@@ -1,0 +1,1928 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.2f1 (068178b99f32) revision 426360'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.804; Version 2004; 64bit' Language: 'es' Physical Memory: 3998 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\2020.2.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Usuario/Desktop/9no Semestre/Games Engines II/Unidad I/Prototype
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+64997
+Successfully changed project path to: C:/Users/Usuario/Desktop/9no Semestre/Games Engines II/Unidad I/Prototype
+C:/Users/Usuario/Desktop/9no Semestre/Games Engines II/Unidad I/Prototype
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 182.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.2f1 (068178b99f32)
+[Subsystems] Discovering subsystems at path C:/Program Files/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Usuario/Desktop/9no Semestre/Games Engines II/Unidad I/Prototype/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   
+    VRAM:     1999 MB
+    Driver:   20.19.15.5107
+Initialize mono
+Mono path[0] = 'C:/Program Files/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007118 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.876 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002646 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 405.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.559 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1793 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.3 MB.
+System memory in use after: 84.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2235.
+Total: 3.910200 ms (FindLiveObjects: 0.272300 ms CreateObjectMapping: 0.095500 ms MarkObjects: 3.332300 ms  DeleteObjects: 0.207600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/DialogueSystem.unity
+  artifactKey: Guid(354a8fbda9b8e4f46a96e2755208b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DialogueSystem.unity using Guid(354a8fbda9b8e4f46a96e2755208b66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5ee82a48d0db60f5756ad287b575f8') in 0.068583 seconds
+  Import took 0.085725 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009165 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.473 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.4 MB.
+System memory in use after: 84.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2239.
+Total: 82.987600 ms (FindLiveObjects: 3.161700 ms CreateObjectMapping: 0.314000 ms MarkObjects: 63.497900 ms  DeleteObjects: 16.009700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 695.203121 seconds.
+  path: Assets/Scripts/DialogueManager.cs
+  artifactKey: Guid(0fdba533377f0684c8270dbd28563582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueManager.cs using Guid(0fdba533377f0684c8270dbd28563582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c382fd5cfd559139a4bea4d301aae61') in 1.938295 seconds
+  Import took 1.953740 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 5.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.764 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.5 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2242.
+Total: 5.344300 ms (FindLiveObjects: 0.279400 ms CreateObjectMapping: 0.112100 ms MarkObjects: 4.498900 ms  DeleteObjects: 0.450800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.047252 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.886 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1789 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2245.
+Total: 33.006600 ms (FindLiveObjects: 1.819700 ms CreateObjectMapping: 0.346200 ms MarkObjects: 28.514300 ms  DeleteObjects: 2.322500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 400.917757 seconds.
+  path: Assets/Scripts/Dialogue.cs
+  artifactKey: Guid(98fc57e952f22ba4ea9aba3306e4efb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dialogue.cs using Guid(98fc57e952f22ba4ea9aba3306e4efb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4808f3fc19e41feb164c61177465c1ab') in 0.155697 seconds
+  Import took 0.275097 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.029733 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.985 seconds
+Platform modules already initialized, skipping
+Script is not up to date after domain reload: guid(4860a9e6d0f4cae48b0f90f571efa136) path("Assets/Scripts/DialogueTrigger.cs") state(2)
+Refreshing native plugins compatible for Editor in 2.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1790 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2249.
+Total: 86.452800 ms (FindLiveObjects: 2.254000 ms CreateObjectMapping: 0.618900 ms MarkObjects: 81.871800 ms  DeleteObjects: 1.704600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.099377 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 9.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.025 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 12.312600 ms (FindLiveObjects: 0.394900 ms CreateObjectMapping: 0.164000 ms MarkObjects: 10.841500 ms  DeleteObjects: 0.907800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.819542 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014035 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.019373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.163243 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010635 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.021775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074522 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000712 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.028832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316250 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001850 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.032543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.133819 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004363 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.046409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.171576 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010527 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.064175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.166960 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011802 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.019282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100569 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011615 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.050248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.245957 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001129 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.019826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.116265 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002705 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.035937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.171356 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001115 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.017264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.117101 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001208 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.098438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129349 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011756 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.020904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104176 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003442 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.051864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.163042 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001194 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.017771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098280 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.032268 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.136442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096245 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.180936 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.211705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.169007 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001031 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.051360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.148658 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000868 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.029164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070839 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019172 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.047728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154287 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001396 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.032537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066661 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000695 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.015952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063615 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000892 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.015965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066383 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000701 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.013139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070145 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001319 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.033020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.164724 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001134 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.018357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070899 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000827 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.031067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085184 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001416 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.024066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066129 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001400 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.029503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062774 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000717 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.016019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052312 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000761 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.012128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058219 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001124 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.015603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083159 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001494 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.061775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119189 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000700 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.014727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.154685 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000697 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.028346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.196989 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004303 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.030291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132056 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002018 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.017067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073239 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000672 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.027145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065920 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000688 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.005827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114193 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001754 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.035199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145967 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000953 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.032419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066924 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002562 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.017486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101028 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001379 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.046627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.165134 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000956 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.020536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082679 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000882 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.027110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053250 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001010 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.018350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066146 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000737 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.016205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.084071 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013302 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.033689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.134913 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010638 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.031137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080536 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000714 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.017319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071219 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000714 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.032126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.271313 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009498 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.062436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132542 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000961 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.033389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.170585 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002426 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.076689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119867 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001417 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.037173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100085 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001221 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.049429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.187029 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000884 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.061201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149511 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000959 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.069938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.127585 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007043 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.048773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099044 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000701 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.011280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059542 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000902 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.012920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111617 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003777 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.016584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096717 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000870 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.006677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042419 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001189 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.005650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035604 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000880 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.011510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037683 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002202 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.007602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033795 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016520 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.030479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.126708 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002132 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.008368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035685 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000690 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.006968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040710 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000775 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.013100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026455 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001994 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.008044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035383 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000797 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.007272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044537 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000921 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.011692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.143239 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000818 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.010575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049642 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000871 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.010889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045291 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000721 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.009423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042790 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002437 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.011878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037722 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000917 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.008705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038211 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001471 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.025604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052861 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001094 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.012997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042843 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001136 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.015145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023927 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000798 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.009116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037315 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000798 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.007025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040333 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001309 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.017583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045570 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001442 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.017179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039143 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001348 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.018622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033400 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000679 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.010100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035514 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000927 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.007995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057881 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001210 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.017591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036486 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001919 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.014047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051214 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001087 seconds
+  ERROR: Build asset version error: assets/scripts/dialoguetrigger.cs in SourceAssetDB has modification time of '2021-02-24T05:01:29.0484806Z' while content on disk has modification time of '2021-02-24T05:02:30.2482798Z'
+  Import took 0.012992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034233 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff737ac1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff737b29662 (Unity) ResolveArtifactV2
+0x00007ff737b840ff (Unity) ImportToObjects
+0x00007ff737b83353 (Unity) AssetImportWorker::Import
+0x00007ff737ae2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff737badd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff737bafee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff737bb366e (Unity) asio::io_service::run
+0x00007ff737b29ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff737b29bf0 (Unity) RunAssetImporterV2
+0x00007ff737047ee6 (Unity) Application::InitializeProject
+0x00007ff7379bd0b2 (Unity) WinMain
+0x00007ff739820c66 (Unity) __scrt_common_main_seh
+0x00007fffd6de7034 (KERNEL32) BaseThreadInitThunk
+0x00007fffd7a3d241 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(-1,00000000000000000000000000000000), Assets/Scripts/DialogueTrigger.cs from editor
+Resuming Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(-1,00000000000000000000000000000000) -> 00000000000000000000000000000000 (aborted)
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff737ac1b52 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff737b29662 (Unity) ResolveArtifactV2
+0x00007ff737b24261 (Unity) ProduceArtifactV2
+0x00007ff737a9181e (Unity) AssetDatabase::ProduceArtifact
+0x00007ff737a776d8 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff737b844bf (Unity) ImportToObjects
+0x00007ff737b83353 (Unity) AssetImportWorker::Import
+0x00007ff737ae2f0a (Unity) <lambda_15460d5f4e3985824d32248de194be11>::operator()
+0x00007ff737badd82 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff737bafee0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff737bb366e (Unity) asio::io_service::run
+0x00007ff737b29ba0 (Unity) RunAssetImportWorkerClientV2
+0x00007ff737b29bf0 (Unity) RunAssetImporterV2
+0x00007ff737047ee6 (Unity) Application::InitializeProject
+0x00007ff7379bd0b2 (Unity) WinMain
+0x00007ff739820c66 (Unity) __scrt_common_main_seh
+0x00007fffd6de7034 (KERNEL32) BaseThreadInitThunk
+0x00007fffd7a3d241 (ntdll) RtlUserThreadStart
+
+Sub-import of Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(-1,00000000000000000000000000000000), Assets/Scripts/DialogueTrigger.cs skipped because a previous one failed already
+ -> (artifact id: 'a3bfdaa7cf057d3aa8e9c2e560a7bc61') in 35.816195 seconds
+  Import took 35.865232 seconds (was aborted).
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.196255 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 23.040700 ms (FindLiveObjects: 0.979700 ms CreateObjectMapping: 0.197000 ms MarkObjects: 20.762800 ms  DeleteObjects: 1.096600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.260938 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cc7257ce3cc5925ac8d8180043867d') in 0.052927 seconds
+  Import took 0.100963 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013527 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 11.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 28.245 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.9 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2259.
+Total: 65.184300 ms (FindLiveObjects: 2.898000 ms CreateObjectMapping: 0.297500 ms MarkObjects: 57.438700 ms  DeleteObjects: 4.543800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2262.
+Total: 3.256200 ms (FindLiveObjects: 0.308100 ms CreateObjectMapping: 0.129900 ms MarkObjects: 2.651500 ms  DeleteObjects: 0.164300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.443680 seconds.
+  path: Assets/Scripts/DialogueManager.cs
+  artifactKey: Guid(1300fdf7c28e00c4b83456bc5c003e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueManager.cs using Guid(1300fdf7c28e00c4b83456bc5c003e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa4e4625f854c280ff6419839151bf8c') in 0.037826 seconds
+  Import took 0.049152 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.303 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 17.610100 ms (FindLiveObjects: 1.350400 ms CreateObjectMapping: 0.201900 ms MarkObjects: 15.425300 ms  DeleteObjects: 0.629300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.568034 seconds.
+  path: Assets/Scripts/DialogueManager.cs
+  artifactKey: Guid(1300fdf7c28e00c4b83456bc5c003e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueManager.cs using Guid(1300fdf7c28e00c4b83456bc5c003e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d48a5ca518b49668620a23006bb939b') in 0.075692 seconds
+  Import took 0.084181 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.227 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 26.032400 ms (FindLiveObjects: 1.399100 ms CreateObjectMapping: 0.736700 ms MarkObjects: 23.580100 ms  DeleteObjects: 0.312700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.623 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 14.914700 ms (FindLiveObjects: 0.860100 ms CreateObjectMapping: 0.240900 ms MarkObjects: 12.759900 ms  DeleteObjects: 1.050900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014481 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.703 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 16.510400 ms (FindLiveObjects: 0.637100 ms CreateObjectMapping: 0.142800 ms MarkObjects: 14.977200 ms  DeleteObjects: 0.748300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1260.318145 seconds.
+  path: Assets/Scripts/DialogueManager.cs
+  artifactKey: Guid(1300fdf7c28e00c4b83456bc5c003e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueManager.cs using Guid(1300fdf7c28e00c4b83456bc5c003e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a524dd15a23902d22df71220b04010') in 0.032369 seconds
+  Import took 0.050071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009643 seconds.
+  path: Assets/Scripts/DialogueManager.cs
+  artifactKey: Guid(1300fdf7c28e00c4b83456bc5c003e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueManager.cs using Guid(1300fdf7c28e00c4b83456bc5c003e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a524dd15a23902d22df71220b04010') in 0.025298 seconds
+  Import took 0.038181 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005986 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.402 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 7.181000 ms (FindLiveObjects: 3.718100 ms CreateObjectMapping: 0.343300 ms MarkObjects: 2.943000 ms  DeleteObjects: 0.166700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008062 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.678 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.4 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 3.585500 ms (FindLiveObjects: 0.278500 ms CreateObjectMapping: 0.098300 ms MarkObjects: 2.967400 ms  DeleteObjects: 0.238700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014601 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.038 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.5 MB.
+System memory in use after: 85.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 6.043000 ms (FindLiveObjects: 0.351400 ms CreateObjectMapping: 0.155400 ms MarkObjects: 5.354300 ms  DeleteObjects: 0.178600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.100818 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.166 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 5.046300 ms (FindLiveObjects: 1.422400 ms CreateObjectMapping: 0.237700 ms MarkObjects: 3.144900 ms  DeleteObjects: 0.238300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006051 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.517 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 8.954400 ms (FindLiveObjects: 0.631600 ms CreateObjectMapping: 0.351900 ms MarkObjects: 7.697100 ms  DeleteObjects: 0.269800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005437 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.765 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2292.
+Total: 3.847600 ms (FindLiveObjects: 0.361000 ms CreateObjectMapping: 0.096200 ms MarkObjects: 3.206200 ms  DeleteObjects: 0.180800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.105912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.234 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
+Total: 8.550100 ms (FindLiveObjects: 0.478100 ms CreateObjectMapping: 0.595600 ms MarkObjects: 6.937300 ms  DeleteObjects: 0.534400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008000 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.222 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 4.550100 ms (FindLiveObjects: 0.343800 ms CreateObjectMapping: 0.162000 ms MarkObjects: 3.444900 ms  DeleteObjects: 0.596200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.624 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.0 MB.
+System memory in use after: 86.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 3.394400 ms (FindLiveObjects: 0.364300 ms CreateObjectMapping: 0.126200 ms MarkObjects: 2.718900 ms  DeleteObjects: 0.182000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018389 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.869 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 4.340000 ms (FindLiveObjects: 0.263100 ms CreateObjectMapping: 0.095600 ms MarkObjects: 3.639700 ms  DeleteObjects: 0.338600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.049 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2307.
+Total: 8.528000 ms (FindLiveObjects: 4.557200 ms CreateObjectMapping: 0.352600 ms MarkObjects: 3.007200 ms  DeleteObjects: 0.606400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008164 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.617 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 5.577400 ms (FindLiveObjects: 0.448000 ms CreateObjectMapping: 0.244000 ms MarkObjects: 4.715700 ms  DeleteObjects: 0.167200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.267 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.3 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 7.349400 ms (FindLiveObjects: 0.507400 ms CreateObjectMapping: 0.687800 ms MarkObjects: 5.871400 ms  DeleteObjects: 0.279000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1410.356833 seconds.
+  path: Assets/Scripts/DialogueManager.cs
+  artifactKey: Guid(1300fdf7c28e00c4b83456bc5c003e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueManager.cs using Guid(1300fdf7c28e00c4b83456bc5c003e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a415f59efd95b3ac22331da63eb0efd6') in 0.050312 seconds
+  Import took 0.070383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.579748 seconds.
+  path: Assets/Scripts/DialogueTrigger.cs
+  artifactKey: Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DialogueTrigger.cs using Guid(4860a9e6d0f4cae48b0f90f571efa136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b1eea35661455e7fd30bf8a3610885') in 0.015795 seconds
+  Import took 0.022417 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.181904 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.451 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.4 MB.
+System memory in use after: 86.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 3.805500 ms (FindLiveObjects: 0.318700 ms CreateObjectMapping: 0.170600 ms MarkObjects: 3.145300 ms  DeleteObjects: 0.168500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.5 MB.
+System memory in use after: 86.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 17.596200 ms (FindLiveObjects: 1.531600 ms CreateObjectMapping: 0.194600 ms MarkObjects: 14.711700 ms  DeleteObjects: 1.154100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011563 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.891 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.5 MB.
+System memory in use after: 86.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 5.726200 ms (FindLiveObjects: 0.626500 ms CreateObjectMapping: 0.177600 ms MarkObjects: 4.461700 ms  DeleteObjects: 0.455900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010059 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.894 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 22.816800 ms (FindLiveObjects: 1.100700 ms CreateObjectMapping: 0.213300 ms MarkObjects: 19.680900 ms  DeleteObjects: 1.818600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022262 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.379 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.7 MB.
+System memory in use after: 85.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2328.
+Total: 3.167100 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.093900 ms MarkObjects: 2.646600 ms  DeleteObjects: 0.181100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004495 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.829 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2331.
+Total: 9.324700 ms (FindLiveObjects: 0.404600 ms CreateObjectMapping: 0.103700 ms MarkObjects: 7.861400 ms  DeleteObjects: 0.948000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003808 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.621 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.8 MB.
+System memory in use after: 85.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2334.
+Total: 16.673900 ms (FindLiveObjects: 0.972600 ms CreateObjectMapping: 1.856200 ms MarkObjects: 13.398700 ms  DeleteObjects: 0.441800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 934.583282 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(e4f504d35dba74e458a0782aaf9bdfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(e4f504d35dba74e458a0782aaf9bdfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5fd77ca4d4ec91ef716a5b37ea4454') in 0.062057 seconds
+  Import took 0.084584 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010317 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.320 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.9 MB.
+System memory in use after: 85.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2337.
+Total: 35.743700 ms (FindLiveObjects: 0.960400 ms CreateObjectMapping: 0.216700 ms MarkObjects: 32.674200 ms  DeleteObjects: 1.888200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.305 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.0 MB.
+System memory in use after: 86.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2340.
+Total: 3.674600 ms (FindLiveObjects: 0.361900 ms CreateObjectMapping: 0.115500 ms MarkObjects: 2.990000 ms  DeleteObjects: 0.204400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.893 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 3.997900 ms (FindLiveObjects: 0.295900 ms CreateObjectMapping: 0.130700 ms MarkObjects: 3.390900 ms  DeleteObjects: 0.177800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.306403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.963 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 3.120100 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.102200 ms MarkObjects: 2.568600 ms  DeleteObjects: 0.168200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 12.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in 33.612 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2349.
+Total: 80.381800 ms (FindLiveObjects: 0.965200 ms CreateObjectMapping: 0.312700 ms MarkObjects: 76.104500 ms  DeleteObjects: 2.984600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016951 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.102 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.3 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2352.
+Total: 3.166600 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.093600 ms MarkObjects: 2.592400 ms  DeleteObjects: 0.227200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005478 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.467 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1791 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.4 MB.
+System memory in use after: 86.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 3.060300 ms (FindLiveObjects: 0.252100 ms CreateObjectMapping: 0.094400 ms MarkObjects: 2.530800 ms  DeleteObjects: 0.180600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
