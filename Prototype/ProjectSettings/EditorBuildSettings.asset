@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SwipeMenu.unity
     guid: f590afb649950b74fbe67b89c0cac716
+  - enabled: 1
+    path: Assets/Scenes/Level_1.unity
+    guid: 231a9996c3eecd845be76d00e43e2f8a
   m_configObjects: {}
