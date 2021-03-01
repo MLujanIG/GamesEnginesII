@@ -472,7 +472,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 555829537}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: gameControl, Assembly-CSharp
         m_MethodName: changeLevel
         m_Mode: 3
@@ -943,7 +943,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &555829536
+--- !u!1 &549440323
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -951,36 +951,44 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 555829538}
-  - component: {fileID: 555829537}
+  - component: {fileID: 549440325}
+  - component: {fileID: 549440324}
   m_Layer: 0
-  m_Name: gameControl
+  m_Name: GameControl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &555829537
+--- !u!114 &549440324
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555829536}
+  m_GameObject: {fileID: 549440323}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c74168f2938721a45b597bf542a76985, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &555829538
+  unlockedLevels: 0
+  currentLevel: 0
+  buttonsMenu:
+  - {fileID: 347659094}
+  - {fileID: 375598148}
+  - {fileID: 492580930}
+  - {fileID: 1427277678}
+  - {fileID: 1651255762}
+--- !u!4 &549440325
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 555829536}
+  m_GameObject: {fileID: 549440323}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 52.160316, y: 163.41122, z: 3552.821}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -7,11 +7,12 @@ public class ScoreControl : MonoBehaviour
 {
     public Text txtScore;
     int score = 0;
-    gameControl GameControl;
+    public gameControl GameControl; //no tenía public ni private
 
-    private void Awake(){
+    /*private void Awake()
+    {
         GameControl = GameObject.Find("gameControl").GetComponent(typeof(gameControl)) as gameControl;
-    }
+    }*/
 
     public void sumScore() 
     {
@@ -19,12 +20,12 @@ public class ScoreControl : MonoBehaviour
         updateTxtScore();
 
         if (score >= 5){
-            //gameControl.changeLevel(0);
+            gameControl.unlockedLevel();//changeLevel(0);
         }
     }
 
     void updateTxtScore()
     {
-        txtScore.text = "Objetos encontrados: " + score.ToString() + "/5";
+        txtScore.text = "Objetos encontrados: " + score.ToString();
     }
 }
