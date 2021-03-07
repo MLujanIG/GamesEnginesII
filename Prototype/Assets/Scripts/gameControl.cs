@@ -34,7 +34,7 @@ public class gameControl : MonoBehaviour
         }
 
         if (SceneManager.GetActiveScene().name == "Level_1"){
-            updateObjects();
+            //updateObjects();
         }
 
         //int objetos = PlayerPrefs.GetInt("objetos", 2);
@@ -81,18 +81,18 @@ public class gameControl : MonoBehaviour
         }
     }
     
-    public void updateObjects()  {
-        for (int i = 0; i < unObjects + 1; i++)
-        {
-            buttonObjects[i].interactable = true;
+    //Revisar funcion
+   /* public void updateObjects()  {
+        for (int i = 0; i < unObjects + 1; i++) {
+            buttonObjects [i].interactable = true;
         }
-    }
+    }*/  
 
     public void destroyObject(GameObject objeto) {
         if(objeto.gameObject.tag == "findObject") {
-            Destroy(objeto.gameObject, (float)3);
+            Destroy(objeto.gameObject, (float) 1f);
             //Destroy(this.gameObject, (float)3);
-            GameObject[] objetos = GameObject.FindGameObjectsWithTag("findObject");
+            GameObject[] objetos = GameObject.FindGameObjectsWithTag("findObject"); 
         }
 
     }
